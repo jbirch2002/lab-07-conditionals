@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Calculation</title>
+</head>
+<body>
+
+<script>
+    let first_number = parseFloat(prompt("Enter the first number: "));
+    let second_number = parseFloat(prompt("Enter the second number: "));
+    let operation = prompt("What kind of operation do you want to do? (mul, div, mod): ");
+
+    if (operation === "mul")
+    {
+        alert("Result: " + (first_number * second_number));
+        console.log("Result: " + (first_number * second_number));
+    } 
+    else if (operation === "div")
+    {
+        alert("Result: " + (first_number / second_number));
+        console.log("Result: " + (first_number / second_number));    
+    } 
+    else if (operation === "mod")
+    {
+        alert("Result: " + (first_number % second_number));
+        console.log("Result: " + (first_number % second_number));
+    } 
+    else
+    {
+        alert(" *** invalid operation *** ");
+        console.log(" *** invalid operation *** ");
+    }
+</script>
+
+</body>
+</html>
