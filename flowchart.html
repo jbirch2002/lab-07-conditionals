@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Calculation</title>
+</head>
+<body>
+
+<script>
+var move = prompt("Does it move? (yes/no)");
+
+if (move == "yes")
+{
+  var should = prompt("Should it? (yes/no)");
+  
+  if (should == "yes")
+  {
+    alert("No problem");
+    console.log("No problem");
+  } 
+  else if (should == "no")
+  {
+    alert("Then use duct tape!!!");
+    console.log("Then use duct tape!!!");
+  } 
+  else 
+  {
+    alert("Answer my question! You didn't type yes or no.");
+    console.log("Answer my question! You didn't type yes or no.");
+  }
+} 
+else if (move == "no")
+ {
+  var fixable = prompt("Is it fixable? (yes/no)");
+  
+  if (fixable == "yes") 
+  {
+    alert("Fix it.");
+    console.log("Fix it.");
+  }
+   else if (fixable == "no")
+  {
+    alert("Leave it alone.");
+    console.log("Leave it alone.");
+  }
+   else
+  {
+    alert("Answer my question! You didn't type yes or no.");
+    console.log("Answer my question! You didn't type yes or no.");
+  }
+}
+ else
+{
+  alert("Answer my question! You didn't type yes or no.");
+  console.log("Answer my question! You didn't type yes or no.");
+}
+</script>
+
+</body>
+</html>
